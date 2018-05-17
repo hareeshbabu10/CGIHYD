@@ -1,6 +1,30 @@
 <div class="eform">
- <h3>Course Enquiry</h3>
-
- <h4> Form wil appear here</h4>
-
+<div class="form" *ngIf="!sending">
+    <div class="field">Name</div>
+    <div class="form-control">
+        <input type="text" [(ngModel)]="name">
+    </div>
+    <div class="field">Email</div>
+    <div class="form-control">
+        <input type="text" [(ngModel)]="email">
+    </div>
+    <div class="field">Message</div>
+    <div class="form-control">
+        <textarea [(ngModel)]="message" rows="5" cols="40"></textarea>
+    </div>
+    <div align="center"><button (click)="sendEnquiry()" class="btn btn-danger">
+        Enquire</button></div>
+    <div class="validation" *ngIf="errors">
+        <ul>
+            <li *ngFor="let x of errorlist">{{x}}</li>
+        </ul>
+    </div>
+  </div>
+  
+  <div class="form" *ngIf="sending">
+      <h1 align="center">Sending the enquiry</h1>
+     <div align="center">
+     <img src="../../assets/images/{{filename}}" height=100 width=100>
+     </div>
+  </div>
 </div>
