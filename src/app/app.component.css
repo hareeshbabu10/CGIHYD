@@ -1,0 +1,11 @@
+#leftbody{
+    width: 65%;
+    margin: 10px;
+    float:left;
+}
+
+#rightbody{
+   width: 32%;
+   margin: 10px;
+   float:left;
+}

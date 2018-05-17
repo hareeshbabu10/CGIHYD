@@ -1,0 +1,23 @@
+.review{
+    height: 150px;
+    width: 90%;
+    border-left: 2px solid darkslategray;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+}
+h3{
+    color: rgb(33, 20, 112);
+    font-family: Arial;
+}
+
+p{
+    font-family: Arial narrow;
+    font-size: 16px;
+    color: rgb(77, 74, 69);
+}
+h5{
+    text-align: right;
+    font-family:courier;
+    color: darkred;
+}

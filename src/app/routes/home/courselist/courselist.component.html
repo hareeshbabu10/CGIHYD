@@ -1,0 +1,10 @@
+<select  [(ngModel)]="pricerange">
+  <option>High Price</option>
+  <option>Moderate Price</option>
+  <option>Normal Price</option>
+  <option>All courses</option>
+</select>
+<br>
+
+<app-course *ngFor="let n of courselist | filtercourse:pricerange"
+  [course]="n"></app-course>

@@ -1,0 +1,15 @@
+.banner{
+    width: 95%;
+    height: 130px;
+    border: 2px dashed darkcyan;
+    color: rgb(5, 5, 80);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/*
+  actual width--> width+padding+border
+                  95%+ 20px +4px
+
+  if box-sizing is border-box actual-width: 95% in which 20px for padding
+  4px for width*/

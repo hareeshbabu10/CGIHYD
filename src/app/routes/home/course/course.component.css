@@ -1,0 +1,41 @@
+.course{
+    background-color:rgb(248, 248, 253);
+    width: 200px;
+    height: 300px;
+    float:left;
+    margin: 10px;
+    box-shadow: 2px 2px 3px lavender;
+}
+.coursepic{
+    width: 100%;
+    height: 100px;
+}
+.coursepic img{
+    width:100%;
+    height: 100%;
+}
+h3{
+    font-family: Arial;
+    color: rgb(11, 11, 99);
+}
+.price{
+    text-align: center;
+    margin: 10px;
+    font-size: 12px;
+    font-family: courier;
+    color: darkred;
+}
+h5{
+    font-family: arial narrow;
+    color: rgb(104, 105, 107);
+}
+
+.offer{
+    margin-left:15px;
+    background-color: rgb(14, 97, 91);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    display: inline;
+}

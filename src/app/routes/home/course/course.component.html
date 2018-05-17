@@ -1,0 +1,11 @@
+<div class="course">
+  <div class="coursepic">
+      <img src="../../../../assets/images/{{current.image}}">
+  </div>
+  <h3 align="center">{{current.name  | uppercase}}</h3>
+  <div class="price">
+      {{current.price | currency:'INR'}}
+  </div>
+  <div class="offer">{{dummy| offercode:current.price}}</div>
+  <h5 align="justify">{{current.description}}</h5>
+</div>
